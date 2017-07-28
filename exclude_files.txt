@@ -1,4 +1,4 @@
-dont_post_rpm
+.git*
 malwr_connector.py
 malwr_consts.py
 malwr_view.py
