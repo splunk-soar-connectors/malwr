@@ -1,7 +1,7 @@
 {
     "appid"    : "036f4ed5-b390-4236-bebd-956e25730aab",
     "name"   : "Malwr",
-    "description": "This app supports executing investigative actions like 'detonate file' on the Malwr cloud based sandbox.",
+    "description": "This app implements <b>investigative</b> actions on the Malwr cloud based sandbox.",
     "type": "sandbox",
     "main_module": "malwr_connector.pyc",
     "app_version": "1.0.18",
@@ -10,11 +10,11 @@
     "product_vendor": "Malwr",
     "product_name": "Malwr",
     "product_version_regex": ".*",
-    "min_phantom_version": "1.2.236",
+    "min_phantom_version": "2.1.478",
     "publisher": "Phantom",
     "consolidate_widgets": true,
     "logo": "malwr.png",
-    "license": "Copyright (c) Phantom Cyber Corporation 2016",
+    "license": "Copyright (c) Phantom Cyber Corporation 2016-2017",
     "configuration": {
       "username": {
         "data_type": "string",
