@@ -30,8 +30,6 @@ from bs4 import BeautifulSoup
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'apimalwr'))
 from MalwrAPI import MalwrAPI  # noqa  # pylint:disable=E0401
 
-requests.packages.urllib3.disable_warnings()
-
 
 class MalwrConnector(BaseConnector):
 
