@@ -5,7 +5,7 @@
     "type": "sandbox",
     "main_module": "malwr_connector.pyc",
     "app_version": "1.0.23",
-    "utctime_updated": "2018-01-25T03:04:12.000000Z",
+    "utctime_updated": "2018-01-26T00:48:33.000000Z",
     "package_name": "phantom_malwr",
     "product_vendor": "Malwr",
     "product_name": "Malwr",
