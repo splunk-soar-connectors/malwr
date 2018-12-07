@@ -1,5 +1,8 @@
+docker-compose.yml
+malwr_consts.py
+Makefile
+__init__.py
+malwr_view.py
 .git*
 malwr_connector.py
-malwr_consts.py
-malwr_view.py
-__init__.py
+.gitlab-ci.yml
