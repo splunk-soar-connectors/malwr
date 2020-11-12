@@ -6,3 +6,4 @@ malwr_view.py
 .git*
 malwr_connector.py
 .gitlab-ci.yml
+whitesource-results
