@@ -1,3 +1,0 @@
-[submodule "apimalwr"]
-	path = apimalwr
-	url = git@cd.splunkdev.com:phantom-external/API-malwr-com.git
