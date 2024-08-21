@@ -12,8 +12,9 @@
 # the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
 # either express or implied. See the License for the specific language governing permissions
 # and limitations under the License.
-from malwr_consts import *
 from phantom.json_keys import *
+
+from malwr_consts import *
 
 
 def detonate_file(provides, all_results, context):

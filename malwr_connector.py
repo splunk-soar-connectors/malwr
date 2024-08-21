@@ -15,19 +15,18 @@
 #
 #
 # Phantom imports
-import phantom.app as phantom
-from phantom.app import BaseConnector
-from phantom.app import ActionResult
-from phantom.vault import Vault
 import os
 import sys
+import time
 
-from malwr_consts import *
-
+import phantom.app as phantom
 # Other imports used by this connector
 import requests
-import time
 from bs4 import BeautifulSoup
+from phantom.app import ActionResult, BaseConnector
+from phantom.vault import Vault
+
+from malwr_consts import *
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'apimalwr'))
 from MalwrAPI import MalwrAPI  # noqa  # pylint:disable=E0401
@@ -352,8 +351,9 @@ class MalwrConnector(BaseConnector):
 
 if __name__ == '__main__':
 
-    import sys
     import json
+    import sys
+
     import pudb
     pudb.set_trace()
 

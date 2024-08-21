@@ -5,8 +5,8 @@ You can also submit files
 
 """
 import hashlib
-
 import re
+
 import requests
 from bs4 import BeautifulSoup
 

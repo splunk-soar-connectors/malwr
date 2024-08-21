@@ -1,9 +1,0 @@
-docker-compose.yml
-malwr_consts.py
-Makefile
-__init__.py
-malwr_view.py
-.git*
-malwr_connector.py
-.gitlab-ci.yml
-whitesource-results
